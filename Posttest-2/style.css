@@ -1,0 +1,83 @@
+body {
+    background-color: white;
+}
+/* Bagian Header */
+.header{
+    height: 30px;
+    background-color: #2B86F7;
+}
+.h-list a {
+    float: right;
+    color: #F1FDEB;
+    text-align: center;
+    padding: 6px 20px;
+    text-decoration: none;
+    font-size: 15px;
+    background-color: #2B86F7;
+    overflow: hidden;
+}
+.h-list a.home {
+    background-color: gray;
+    color: black;
+}
+/* Bagian Navbar */
+.navbar{
+    height: 90px;
+    background-color: #70FACB;
+}
+.n-logo{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    padding: 2px;
+    text-align: center;
+    line-height: 1px;
+}
+.n-logo input[type=text] {
+    border: 1.5px solid #00C2A3;
+}
+.n-logo button[type=submit] {
+    border: 1.5px solid #00C2A3;
+}
+.logo {
+    font-size: 20px;
+}
+.teks{
+    font-size: 10px;
+}
+/* Bagian Main-Content */
+.main{
+    height: 350px;
+    background-color: #29C195;
+    border: 2px solid black;
+}
+table {
+    padding-top: 30px;
+    padding-left: 180px;
+    border-spacing: 15px;
+}
+.resep {
+    height: 250px;
+    width: 150px;
+    padding: 4px;
+    margin: auto;
+    background-color: #fff;
+}
+figcaption {
+    font-size: 14px;
+    /* font-style: italic; */
+    font-weight: bold;
+    text-align: center;
+    color: black;
+    padding: 2px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/* Bagian Footer */
+.footer{
+    height: 35px;
+    background-color: #008A62;
+}
+.f-teks {
+    text-align: center;
+    padding-top: 2px;
+    font-size: 10px;
+    color: #fff;
+}
